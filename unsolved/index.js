@@ -10,7 +10,7 @@ const path = require('path')
 
 const app = express();
 const port = process.env.PORT || 5000;
-let uri = ""
+let uri = "process.env.ATLAS_URI"
 
 // register middleware
 app.use(express.urlencoded({ extended: true }));
@@ -19,7 +19,7 @@ app.use(express.json());
 // Serve up static assets (heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
-  uri = "mongodb://localhost/userdb"  // connection string for Atlas here  
+  uri = process.env.ATLAS_URI;  // connection string for Atlas here  
 } else {
   uri = "mongodb://localhost/userdb"  // connection string for localhost mongo here  
 }
