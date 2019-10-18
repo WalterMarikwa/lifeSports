@@ -5,7 +5,7 @@
 const router = require("express").Router();
 let User = require("../models/user.model");
 const mongoose = require("mongoose");
-// const db = mongoose.connect('mongodb://localhost:27017', {useNewUrlParser: true});
+
 
 // Your Challenge: Make rwo routes. Each will use mongojs methods
 // to interact with your mongoDB database, as instructed below.
