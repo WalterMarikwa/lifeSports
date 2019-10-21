@@ -2,29 +2,40 @@
 # LifeSports Challlenge and Hackathon
 
 ### About Us
+- We are currently under code academy for Road to Hire and happy to be part of this amazing journey, Were we have the pleasure to design and build cool web aplications.
+- This webpage is designed to get and track student athletes for and control performances.
 
+### Install
+npm init
+npm install
+npm i concurrently
+npm i nodemon
+npm i mongoose
+npm i express
+npm i path
+npm i .env
+ 
 
 ### Build Components
+Bootstrap 4
+React.js
+Node.js
+Express.js
+MongoDb
 
 ### Usage
 
-```js
+```npm run start
 
 ```
 
+### Deployments
+Heroku
+MongoDb Atlas
+
 #### Challenge Instructions
 
-The challenge requirements for this week are as follows:
-
-1. Complete the API endpoints in the LifeSports Express server. Note that all MongoDB functions must use the mongoose data model that is provides
-
-2. Refactor this code to work with your MongoDB Atlas database. You should update your .env file so that you can use either mongodb locally on on Atlas
-
-3. Deploy your app to Heroku
-
-4. Submit the link to your professionally composed GitHub acct with the Link to your working app by Monday, Oct 21 at 5pm. The github acct should have the link to your live heroku app
-
-The APIs will be tested and the github accts reviewed to determine the number of points earned n the challenge submission
+Completed API endpoints in the lifesports Express server and created mongoDB functions that used the mongoose data model to call web APIs. 
 
 #### Hackathon Challenge
 
@@ -35,4 +46,7 @@ The APIs will be tested and the github accts reviewed to determine the number of
 3. Each submission should include an updated UI, with updates, as required, to the mongoose data model, api server and integrations. All Submissions must be deployed with a professionally composed github repo and a live working app on Heroku
 
 4. The deadline for all submissions in Thursday, Oct 24 at 5pm
+
+
+
 
