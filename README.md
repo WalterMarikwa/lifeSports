@@ -6,32 +6,26 @@
 - This webpage is designed to get and track student athletes for and control performances.
 
 ### Install
-npm init
-npm install
-npm i concurrently
-npm i nodemon
-npm i mongoose
-npm i express
-npm i path
-npm i .env
+- npm init
+- npm install
+- npm i concurrently
+- npm i nodemon
+- npm i mongoose
+- npm i express
+- npm i path
+- npm i .env
  
 
 ### Build Components
-Bootstrap 4
-React.js
-Node.js
-Express.js
-MongoDb
-
-### Usage
-
-```npm run start
-
-```
+- Bootstrap 4
+- React.js
+- Node.js
+- Express.js
+- MongoDb
 
 ### Deployments
-Heroku
-MongoDb Atlas
+- Heroku
+- MongoDb Atlas
 
 #### Challenge Instructions
 
@@ -39,14 +33,7 @@ Completed API endpoints in the lifesports Express server and created mongoDB fun
 
 #### Hackathon Challenge
 
-1. Use the working version of your LifeSports app from the Challenge to go the next level!
-
-2. Be creative! Develop a new and more engaging UI for your 'workout tracker' and deliver an app that will captivate the LifeSports' coaches!
-
-3. Each submission should include an updated UI, with updates, as required, to the mongoose data model, api server and integrations. All Submissions must be deployed with a professionally composed github repo and a live working app on Heroku
-
-4. The deadline for all submissions in Thursday, Oct 24 at 5pm
-
+- Took this work of my lifeSports version to the next level, By showing creativity and also developing a new and more engaging UI tracker for workout tracker.
 
 
 
